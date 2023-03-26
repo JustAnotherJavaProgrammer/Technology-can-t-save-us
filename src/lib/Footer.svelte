@@ -6,6 +6,7 @@
         <a href="/legal/privacypolicy">Privacy Policy</a>
         <a href="/legal/impressum">Impressum</a>
         <a href="/legal/datenschutzerklaerung">Datenschutzerklärung</a>
+        <a href="https://github.com/JustAnotherJavaProgrammer/Technology-can-t-save-us" target="_blank">Source code on GitHub</a>
     </nav>
 </footer>
 
