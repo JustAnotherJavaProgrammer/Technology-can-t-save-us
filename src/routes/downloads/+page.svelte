@@ -37,6 +37,7 @@
     import eleven from "$lib/assets/Technology can_t save us/Technology can_t save us_11.png";
     //@ts-expect-error
     import eleven_small from "$lib/assets/Technology can_t save us/Technology can_t save us_11.png?width=200";
+    import MetaInfo from "$lib/MetaInfo.svelte";
 
     const images: { img: string; small: string }[] = [
         { img: zero, small: zero_small },
@@ -53,6 +54,8 @@
         { img: eleven, small: eleven_small },
     ];
 </script>
+
+<MetaInfo title="Downloads" description="Download the design from the homepage in a vertical 3:2 format."/>
 
 <main>
     <h1>Downloads</h1>
