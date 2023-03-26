@@ -11,12 +11,24 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.1",
 		"@sveltejs/kit": "^1.5.0",
+		"autoprefixer": "^10.4.14",
+		"mdsvex": "^0.10.6",
+		"postcss-load-config": "^4.0.1",
+		"sass": "^1.60.0",
 		"svelte": "^3.54.0",
 		"svelte-check": "^3.0.1",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
-		"vite": "^4.2.0"
+		"vite": "^4.2.0",
+		"vite-imagetools": "^4.0.18"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@fontsource/caveat-brush": "^4.5.9",
+		"@fontsource/courier-prime": "^4.5.9",
+		"@fontsource/lora": "^4.5.13",
+		"@fontsource/oswald": "^4.5.12"
+	}
 }

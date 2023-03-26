@@ -1,0 +1,137 @@
+@mixin font-serif {
+    font-family: "Lora", serif;
+}
+
+@mixin font-sans-serif {
+    font-family: "Oswald", sans-serif;
+}
+
+@mixin font-cursive {
+    font-family: "Caveat Brush", cursive;
+}
+
+@mixin font-mono {
+    font-family: "Courier Prime", monospace;
+}
+
+@mixin font-monospace {
+    @include font-mono;
+}
+
+$white: #fff;
+$black: #000;
+
+$kh-orange: #f26419;
+$kh-blue: #30bced;
+$kh-yellow: #fde74c;
+
+$ll-pink: #db2763;
+$ll-yellowgreen: #b0db43;
+
+$in-lightblue: #009ffd;
+$in-green: #5efc8d;
+$in-orange: #f2af29;
+$in-darkblue: #3d3b8e;
+
+$ut-grey: #ebebeb;
+$ut-red: #d00000;
+$ut-green: #566e3d;
+
+@mixin color-combo-1 {
+    color: $black;
+    background-color: $white;
+}
+
+@mixin color-combo-2 {
+    color: $white;
+    background-color: $black;
+}
+
+@mixin color-combo-3 {
+    color: $kh-orange;
+    background-color: $black;
+}
+
+@mixin color-combo-4 {
+    color: $kh-blue;
+    background-color: $white;
+}
+
+@mixin color-combo-5 {
+    color: $ll-yellowgreen;
+    background-color: $ll-pink;
+}
+
+@mixin color-combo-6 {
+    color: $in-lightblue;
+    background-color: $in-green;
+}
+
+@mixin color-combo-7 {
+    color: $in-green;
+    background-color: $in-lightblue;
+}
+
+@mixin color-combo-8 {
+    color: $in-orange;
+    background-color: $in-darkblue;
+}
+
+@mixin color-combo-9 {
+    color: $in-darkblue;
+    background-color: $in-orange;
+}
+
+@mixin color-combo-10 {
+    color: $ut-red;
+    background-color: $ut-grey;
+}
+
+@mixin color-combo-11 {
+    color: $ut-green;
+    background-color: $ut-grey;
+}
+
+@mixin color-combo-12 {
+    color: $kh-yellow;
+    background-color: $kh-blue;
+}
+
+@mixin color-combo($n) {
+    @if $n == 1 {
+        @include color-combo-1;
+    } @else if $n == 2 {
+        @include color-combo-2;
+    } @else if $n == 3 {
+        @include color-combo-3;
+    } @else if $n == 4 {
+        @include color-combo-4;
+    } @else if $n == 5 {
+        @include color-combo-5;
+    } @else if $n == 6 {
+        @include color-combo-6;
+    } @else if $n == 7 {
+        @include color-combo-7;
+    } @else if $n == 8 {
+        @include color-combo-8;
+    } @else if $n == 9 {
+        @include color-combo-9;
+    } @else if $n == 10 {
+        @include color-combo-10;
+    } @else if $n == 11 {
+        @include color-combo-11;
+    } @else if $n == 12 {
+        @include color-combo-12;
+    } @else {
+        @include color-combo-1;
+    }
+}
+
+@mixin main-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-grow: 1;
+}
