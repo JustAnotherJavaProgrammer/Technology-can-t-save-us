@@ -28,4 +28,8 @@
         align-items: center;
         gap: 0.5rem;
     }
+
+    nav {
+        flex-wrap: wrap;
+    }
 </style>
