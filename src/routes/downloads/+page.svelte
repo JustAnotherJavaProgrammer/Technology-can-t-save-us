@@ -55,7 +55,7 @@
     ];
 </script>
 
-<MetaInfo title="Downloads" description="Download the design from the homepage in a vertical 3:2 format."/>
+<MetaInfo title="Downloads" description="Download the design from the homepage in a vertical 3:2 format." />
 
 <main>
     <h1>Downloads</h1>
@@ -88,10 +88,16 @@
     }
 
     section {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-auto-rows: 1fr;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
         gap: 1rem;
+        @media screen and (min-width: ((200px*3) + (2*16px))) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-auto-rows: 1fr;
+        }
     }
 
     img {
