@@ -3,40 +3,40 @@
 
     import zero from "$lib/assets/Technology can_t save us/Technology can_t save us_0.png";
     //@ts-expect-error
-    import zero_small from "$lib/assets/Technology can_t save us/Technology can_t save us_0.png?width=200";
+    import zero_small from "$lib/assets/Technology can_t save us/Technology can_t save us_0.png?w=200";
     import one from "$lib/assets/Technology can_t save us/Technology can_t save us_1.png";
     //@ts-expect-error
-    import one_small from "$lib/assets/Technology can_t save us/Technology can_t save us_1.png?width=200";
+    import one_small from "$lib/assets/Technology can_t save us/Technology can_t save us_1.png?w=200";
     import two from "$lib/assets/Technology can_t save us/Technology can_t save us_2.png";
     //@ts-expect-error
-    import two_small from "$lib/assets/Technology can_t save us/Technology can_t save us_2.png?width=200";
+    import two_small from "$lib/assets/Technology can_t save us/Technology can_t save us_2.png?w=200";
     import three from "$lib/assets/Technology can_t save us/Technology can_t save us_3.png";
     //@ts-expect-error
-    import three_small from "$lib/assets/Technology can_t save us/Technology can_t save us_3.png?width=200";
+    import three_small from "$lib/assets/Technology can_t save us/Technology can_t save us_3.png?w=200";
     import four from "$lib/assets/Technology can_t save us/Technology can_t save us_4.png";
     //@ts-expect-error
-    import four_small from "$lib/assets/Technology can_t save us/Technology can_t save us_4.png?width=200";
+    import four_small from "$lib/assets/Technology can_t save us/Technology can_t save us_4.png?w=200";
     import five from "$lib/assets/Technology can_t save us/Technology can_t save us_5.png";
     //@ts-expect-error
-    import five_small from "$lib/assets/Technology can_t save us/Technology can_t save us_5.png?width=200";
+    import five_small from "$lib/assets/Technology can_t save us/Technology can_t save us_5.png?w=200";
     import six from "$lib/assets/Technology can_t save us/Technology can_t save us_6.png";
     //@ts-expect-error
-    import six_small from "$lib/assets/Technology can_t save us/Technology can_t save us_6.png?width=200";
+    import six_small from "$lib/assets/Technology can_t save us/Technology can_t save us_6.png?w=200";
     import seven from "$lib/assets/Technology can_t save us/Technology can_t save us_7.png";
     //@ts-expect-error
-    import seven_small from "$lib/assets/Technology can_t save us/Technology can_t save us_7.png?width=200";
+    import seven_small from "$lib/assets/Technology can_t save us/Technology can_t save us_7.png?w=200";
     import eight from "$lib/assets/Technology can_t save us/Technology can_t save us_8.png";
     //@ts-expect-error
-    import eight_small from "$lib/assets/Technology can_t save us/Technology can_t save us_8.png?width=200";
+    import eight_small from "$lib/assets/Technology can_t save us/Technology can_t save us_8.png?w=200";
     import nine from "$lib/assets/Technology can_t save us/Technology can_t save us_9.png";
     //@ts-expect-error
-    import nine_small from "$lib/assets/Technology can_t save us/Technology can_t save us_9.png?width=200";
+    import nine_small from "$lib/assets/Technology can_t save us/Technology can_t save us_9.png?w=200";
     import ten from "$lib/assets/Technology can_t save us/Technology can_t save us_10.png";
     //@ts-expect-error
-    import ten_small from "$lib/assets/Technology can_t save us/Technology can_t save us_10.png?width=200";
+    import ten_small from "$lib/assets/Technology can_t save us/Technology can_t save us_10.png?w=200";
     import eleven from "$lib/assets/Technology can_t save us/Technology can_t save us_11.png";
     //@ts-expect-error
-    import eleven_small from "$lib/assets/Technology can_t save us/Technology can_t save us_11.png?width=200";
+    import eleven_small from "$lib/assets/Technology can_t save us/Technology can_t save us_11.png?w=200";
     import MetaInfo from "$lib/MetaInfo.svelte";
 
     const images: { img: string; small: string }[] = [
