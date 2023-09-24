@@ -6,7 +6,7 @@
 <h1>{$page.status} &ndash; {$page.error?.message ?? "That's an error"}</h1>
 <p>
     This is not the page you are looking for.<br />
-    <a href="/">Go back to the homepage</a>
+    <a href="/">Go back to the home page</a>
 </p>
 </main>
 
